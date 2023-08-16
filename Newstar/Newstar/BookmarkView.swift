@@ -9,7 +9,17 @@ import SwiftUI
 
 struct BookmarkView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                List {
+                    ForEach(1...10, id: \.self) {_ in
+                        BookmarkItemView()
+                    }
+                }
+                .listStyle(.plain)
+            }
+            .navigationTitle("Bookmark")
+        }
     }
 }
 
