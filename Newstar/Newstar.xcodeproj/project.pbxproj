@@ -14,6 +14,7 @@
 		2F36AF9C2A83AA9B00B3B456 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AF9B2A83AA9B00B3B456 /* MainView.swift */; };
 		2F36AF9E2A83AAAE00B3B456 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AF9D2A83AAAE00B3B456 /* CategoryView.swift */; };
 		2F36AFA02A83AAC100B3B456 /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AF9F2A83AAC100B3B456 /* BookmarkView.swift */; };
+		E55D36B02A8E39C500997718 /* SearchFilterSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D36AF2A8E39C500997718 /* SearchFilterSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2F36AF9B2A83AA9B00B3B456 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2F36AF9D2A83AAAE00B3B456 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		2F36AF9F2A83AAC100B3B456 /* BookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
+		E55D36AF2A8E39C500997718 /* SearchFilterSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				2F36AF8D2A83A6F800B3B456 /* NewstarApp.swift */,
 				2F36AF8F2A83A6F800B3B456 /* NewstarTabView.swift */,
+				E55D36AF2A8E39C500997718 /* SearchFilterSheetView.swift */,
 				2F36AF9D2A83AAAE00B3B456 /* CategoryView.swift */,
 				2F36AF9F2A83AAC100B3B456 /* BookmarkView.swift */,
 				2F36AF9B2A83AA9B00B3B456 /* MainView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55D36B02A8E39C500997718 /* SearchFilterSheetView.swift in Sources */,
 				2F36AF902A83A6F800B3B456 /* NewstarTabView.swift in Sources */,
 				2F36AFA02A83AAC100B3B456 /* BookmarkView.swift in Sources */,
 				2F36AF9C2A83AA9B00B3B456 /* MainView.swift in Sources */,
