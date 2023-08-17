@@ -17,18 +17,19 @@ struct BookmarkItemView: View {
             } placeholder: {
                 ProgressView()
             }
-            .frame(width: 80, height: 80)
+            .frame(width: 100, height: 100)
             .cornerRadius(5)
             
-            VStack(alignment: .leading) {
-                Text("News title news title news")
-                    .font(.headline)
-                    .bold()
-                Text("contents sth llal sth contents sth sdkna sth contents sth sad11 sth contekkk23nts sth")
+            VStack(alignment: .leading, spacing: 5) {
+                Text("News title news title news aaaaaaaaaaa")
+                    .font(.title3)
+                    .fontWeight(.bold)
+                Text("contents sth llal sth contents sth sdkna sth contents sth sad11 sth contekkk23nts sth aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                     .font(.subheadline)
                     .foregroundColor(.gray)
-                
-                HStack() {
+                    .fontWeight(.bold)
+
+                HStack(spacing: 10) {
                     Text("NewyorkTimes")
                         .font(.subheadline)
                         .foregroundColor(.blue)
@@ -38,6 +39,7 @@ struct BookmarkItemView: View {
                 }
             }
         }
+        .frame(maxHeight: 120)
     }
 }
 
