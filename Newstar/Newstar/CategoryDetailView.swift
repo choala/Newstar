@@ -13,14 +13,22 @@ struct CategoryDetailView: View {
     
     // MARK: - BODY
     var body: some View {
-        ZStack {
-            VStack {
-                Text("Hello")
+        NavigationStack {
+            List {
+                Image("image1")
+                    .resizable()
+                    .scaledToFit()
+                Image("image2")
+                    .resizable()
+                    .scaledToFit()
+                Image("image3")
+                    .resizable()
+                    .scaledToFit()
             }
+            .navigationBarTitle(Text("Health"), displayMode: .large)
         }
     }
 }
-
 struct CategoryDetailView_Previews: PreviewProvider {
     static var previews: some View {
         CategoryDetailView()

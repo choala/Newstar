@@ -62,9 +62,9 @@
 				2F36AF8D2A83A6F800B3B456 /* NewstarApp.swift */,
 				2F36AF8F2A83A6F800B3B456 /* NewstarTabView.swift */,
 				2F36AF9D2A83AAAE00B3B456 /* CategoryView.swift */,
+				0CF8888C2A8E32AD00998657 /* CategoryDetailView.swift */,
 				2F36AF9F2A83AAC100B3B456 /* BookmarkView.swift */,
 				2F36AF9B2A83AA9B00B3B456 /* MainView.swift */,
-				0CF8888C2A8E32AD00998657 /* CategoryDetailView.swift */,
 				2F36AF912A83A6FC00B3B456 /* Assets.xcassets */,
 				2F36AF932A83A6FC00B3B456 /* Preview Content */,
 			);
