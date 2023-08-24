@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CategoryDetailView: View {
     // MARK: - PROPERTIY
-    var uiImageView = UIImageView()
+
     
     // MARK: - BODY
     var body: some View {
