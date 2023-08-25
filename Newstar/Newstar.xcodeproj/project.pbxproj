@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CF8888D2A8E32AD00998657 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF8888C2A8E32AD00998657 /* CategoryDetailView.swift */; };
 		2F36AF8E2A83A6F800B3B456 /* NewstarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AF8D2A83A6F800B3B456 /* NewstarApp.swift */; };
 		2F36AF902A83A6F800B3B456 /* NewstarTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AF8F2A83A6F800B3B456 /* NewstarTabView.swift */; };
 		2F36AF922A83A6FC00B3B456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F36AF912A83A6FC00B3B456 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CF8888C2A8E32AD00998657 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		2F36AF8A2A83A6F800B3B456 /* Newstar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newstar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F36AF8D2A83A6F800B3B456 /* NewstarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewstarApp.swift; sourceTree = "<group>"; };
 		2F36AF8F2A83A6F800B3B456 /* NewstarTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewstarTabView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				2F36AF8D2A83A6F800B3B456 /* NewstarApp.swift */,
 				2F36AF8F2A83A6F800B3B456 /* NewstarTabView.swift */,
 				2F36AF9D2A83AAAE00B3B456 /* CategoryView.swift */,
+				0CF8888C2A8E32AD00998657 /* CategoryDetailView.swift */,
 				2F36AF9F2A83AAC100B3B456 /* BookmarkView.swift */,
 				2F36AF9B2A83AA9B00B3B456 /* MainView.swift */,
 				2F36AF912A83A6FC00B3B456 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 				2F36AF9C2A83AA9B00B3B456 /* MainView.swift in Sources */,
 				2F36AF9E2A83AAAE00B3B456 /* CategoryView.swift in Sources */,
 				2F36AF8E2A83A6F800B3B456 /* NewstarApp.swift in Sources */,
+				0CF8888D2A8E32AD00998657 /* CategoryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
